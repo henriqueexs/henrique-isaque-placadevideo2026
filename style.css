@@ -1,0 +1,260 @@
+/*inicio do css*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background:#000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*inicio cabeçalho*/
+
+#header{
+    width: 100%;
+    height: 100px;
+    margin: 0px auto;
+    background: #7CB203;
+}
+
+#header h1{
+    display: block;
+    float: left;
+}
+
+#nav{
+    list-style: none;
+    padding-left: 0px;
+    display: block;
+    float: left;
+    margin-right: 15px;
+    margin-top: 40px;
+}
+
+#nav li{
+    float: left;
+    margin-left: 60px;
+}
+
+#nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 8px;
+    color:#000000;
+    font-weight: bold;
+}
+
+#nav a:hover{
+    border-bottom: 4px solid #000000;
+}
+
+#nav a.ativa{
+    border-bottom: 4px solid #000000;
+}
+
+#header img{
+    width: 150px;
+    height: 100px;
+}
+
+#header i.right{
+	float: left;
+	height: 60px;
+	line-height: 18px;
+	margin-right: 8px;
+}
+
+/*fim do caceçalho*/
+
+/*inicio do container*/
+
+#container{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 90%;
+    margin: 50px auto;
+    color: white;
+    padding-bottom: 49px;
+    overflow: auto;
+}
+
+#container h1{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.1;
+    text-transform: uppercase;
+    width: 40%;
+    float: left;
+    border-bottom: 4px solid #7CB203;
+    padding-bottom: 20px;
+}
+
+#container img{
+    float: right;
+    width: 700px;
+}
+
+.info{
+    padding-top: 190px;
+    width: 37%;
+    font-size: 25px;
+    font-family: Bodoni Moda;
+}
+
+.subtitulo{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #7CB203;
+    clear: both;
+}
+
+.article{
+    width: 250px;
+    height: 130px;
+    border: 3px solid #7CB203;
+    color: white;
+    padding: 20px;
+    margin: 42px;
+    float: left;
+    text-align: center;
+    background-color: #1A1A1A;
+    text-transform: uppercase;
+}
+
+.article p{
+    padding-top: 10px;
+    width: auto;
+    font-size: 16px;
+}
+
+.footer{
+    clear: both;
+    width: 100%;
+    background: #1A1A1A;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid #7CB203;
+    position: relative;
+}
+
+.limpa{
+    clear: both;
+}
+
+/*fim do container e da pagina home*/
+
+/*inicio do site sobre*/
+
+.img2{
+    float: right;
+    width: 700px;
+    height: 500px;
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 50px;
+    color: #7CB203;
+    text-transform: uppercase;
+}
+
+hr{
+    border: 2px solid #7CB203;
+}
+
+.artigo{
+    font-size: 30px;
+    width: 90%;
+    font-family: Bodoni Moda;
+}
+
+.processo{
+    width: 18%;
+    height: 300px;
+    float: left;
+    margin-left: 85px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #1A1A1A;
+    border: 3px solid #7CB203;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.processo i{
+    font-size: 50px;
+    color: #7CB203;
+}
+
+.processo h3{
+    color: #7CB203;
+}
+
+.topo{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #7CB203;
+    text-decoration: none;
+}
+
+.topo i{
+    font-size: 40px;
+}
+/*fim do site sobre*/
+
+/*inicio do site caracteristicas*/
+
+.caracteristica{
+    border: 2px solid #7CB203;
+    margin-top: 100px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+h4{
+    font-size: 40px;
+    color: #7CB203;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.tabela{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    color: white;
+    background-color: #1A1A1A;
+}
+
+.tabela th{
+    background-color: #7CB203;
+    color: black;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.tabela td{
+    border: 2px solid #7CB203;
+    padding: 12px;
+}
+
+.tabela tr:hover{
+    background-color: #2B2B2B;
+}
+
+ul{
+    font-size: 20px;
+    margin-top: 10px;
+}
